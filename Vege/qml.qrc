@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icons/goUp.png</file>
+        <file>material/Button.qml</file>
+        <file>material/PaperRipple.qml</file>
+        <file>material/TopBar.qml</file>
+        <file>icons/search.png</file>
+        <file>material/Page.qml</file>
+        <file>material/SearchBar.qml</file>
+        <file>icons/back.png</file>
+        <file>scripts/FrontEnd.js</file>
+        <file>fonts/Roboto-Medium.ttf</file>
+    </qresource>
+</RCC>
