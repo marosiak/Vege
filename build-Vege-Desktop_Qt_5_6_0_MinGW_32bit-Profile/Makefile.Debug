@@ -65,7 +65,7 @@ $(DESTDIR_TARGET):  $(OBJECTS)
 	$(LINKER) $(LFLAGS) -o $(DESTDIR_TARGET) $(OBJECTS)  $(LIBS)
 
 qmake: FORCE
-	@$(QMAKE) -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" -o Makefile.Debug ..\Vege\Vege.pro
+	@$(QMAKE) -spec win32-g++ "CONFIG+=qml_debug" "CONFIG+=force_debug_info" "CONFIG+=separate_debug_info" -o Makefile.Debug ..\Vege\Vege.pro
 
 qmake_all: FORCE
 
@@ -95,15 +95,11 @@ debug/qrc_qml.cpp: ../Vege/qml.qrc \
 		../Vege/main.qml \
 		../Vege/scripts/FrontEnd.js \
 		../Vege/scripts/DataBase.js \
-		../Vege/images/lazania.jpg \
 		../Vege/material/Button.qml \
 		../Vege/material/SearchBar.qml \
-		../Vege/material/SearchResult.qml \
 		../Vege/material/PaperRipple.qml \
 		../Vege/material/TopBar.qml \
 		../Vege/material/Page.qml \
-		../Vege/material/Box.qml \
-		../Vege/material/ContentBar.qml \
 		../Vege/fonts/Roboto-Medium.ttf \
 		../Vege/icons/search.png \
 		../Vege/icons/goUp.png \

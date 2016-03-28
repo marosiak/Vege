@@ -11,6 +11,10 @@ Rectangle {
         id: robotoMedium
         source: "/fonts/Roboto-Medium.ttf"
     }
+    FontLoader {
+        id: robotoLight
+        source: "/fonts/Roboto-Light.ttf"
+    }
     Item {
         id: item1
         height: parent.height
@@ -19,8 +23,8 @@ Rectangle {
         width: parent.height
         Image {
             source: "../icons/back.png"
-            width: item1.width -30
-            height: item1.height -30
+            width: item1.width -38
+            height: item1.height -38
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
         }
@@ -32,7 +36,7 @@ Rectangle {
         }
         PaperRipple {
             id: ripple
-            radius: 3 * dp
+            radius: 3*100
             mouseArea: sr
         }
     }
@@ -62,8 +66,7 @@ Rectangle {
                 height: searchBox.height
                 width: searchBox.width
                 font.pixelSize: 24
-                font.family: robotoMedium.name
-                //wrapMode: TextInput.Wrap
+                font.family: robotoLight.name//robotoMedium.name
             }
         }
     }

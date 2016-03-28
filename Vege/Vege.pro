@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick
+QT += qml quick sql
 CONFIG += c++11
 
 SOURCES += main.cpp
@@ -13,7 +13,12 @@ QML_IMPORT_PATH =
 # Default rules for deployment.
 include(deployment.pri)
 
+android {
+
+}
+
 DISTFILES += \
     material/TopBar.qml \
     material/Page.qml \
-    material/FadeEffect.qml
+    material/FadeEffect.qml \
+    material/DataBase.qml

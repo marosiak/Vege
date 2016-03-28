@@ -12,10 +12,16 @@ Rectangle {
         anchors.right: parent.right
         anchors.rightMargin: 0
         width: parent.height
+        PaperRipple {
+            id: ripple
+            radius: 3*100
+            mouseArea: sr
+        }
+
         Image {
             source: "../icons/search.png"
-            width: item1.width -30
-            height: item1.height -30
+            width: item1.width -36
+            height: item1.height -36
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
         }
@@ -25,11 +31,5 @@ Rectangle {
             height: parent.height
             onClicked: main.clicked();
         }
-        PaperRipple {
-            id: ripple
-            radius: 3 * dp
-            mouseArea: sr
-        }
-
     }
 }

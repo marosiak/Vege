@@ -11,5 +11,12 @@
         <file>icons/back.png</file>
         <file>scripts/FrontEnd.js</file>
         <file>fonts/Roboto-Medium.ttf</file>
+        <file>food.db</file>
+        <file>scripts/DataBase.js</file>
+        <file>images/lazania.jpg</file>
+        <file>material/Box.qml</file>
+        <file>material/ContentBar.qml</file>
+        <file>material/SearchResult.qml</file>
+        <file>fonts/Roboto-Light.ttf</file>
     </qresource>
 </RCC>
