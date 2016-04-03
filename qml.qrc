@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>fonts/Roboto-Light.ttf</file>
+        <file>fonts/Roboto-Medium.ttf</file>
+        <file>material/Button.qml</file>
+        <file>material/Card.qml</file>
+        <file>material/ColorButton.qml</file>
+        <file>material/FloatingButton.qml</file>
+        <file>material/Input.qml</file>
+        <file>material/ListItem.qml</file>
+        <file>material/MatText.qml</file>
+        <file>material/PaperRipple.qml</file>
+        <file>material/SearchBar.qml</file>
+        <file>material/Spacer.qml</file>
+        <file>material/icons/cancel.png</file>
+        <file>material/icons/search_gray_48.png</file>
+        <file>imgs/lazania.jpg</file>
+    </qresource>
+</RCC>
